@@ -1,0 +1,10 @@
+.messages {
+	border: 1px solid;
+	width: 90%;
+	height: 70%;
+	overflow: auto;
+}
+
+.message {
+	width: 40%;
+}

@@ -1,0 +1,40 @@
+<!-- 10.0.1.153 netmask 0xffffff00 broadcast 10.0.1.255 -->
+
+<html>
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./javascripts/chat.js"></script>
+	<script src="./javascripts/chat_ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css"></link>
+
+</head>
+
+<body>
+	<h1>Jeff and Jess' Chat Room</h1>
+	<div class="messages">
+	</div>
+	<div class="form">
+		<form action="" method="post" accept-charset="utf-8">
+
+			<br>
+			<textarea class="message"></textarea>
+
+			<p><input type="submit" value="Send Message"></p>
+		</form>
+
+	</div>
+</body>
+
+<!-- // <script>
+//
+// io.connect('http://127.0.0.1:8080/');
+// io.on('echo', function(data) {
+// 	console.log(data);
+// });
+//
+// io.emit('message', "YO YO YO");
+//
+// </script> -->
+
+</html>
